@@ -29,4 +29,9 @@ class Human:
         pass
     def live(self):
         pass
-
+class Auto:
+    def __init__(self, brand_list):
+        self.brand = random.choice(list(brand_list))
+        self.fuel = brand_list[self.brand]['fuel']
+        self.strength = brand_list[self.brand]['strength']
+        self.consumption = brand_list[self.brand]['consumption']
