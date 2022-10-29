@@ -23,3 +23,10 @@ class Human:
         pass
     def clear_home(self):
         pass
+    def day_indexes(self, day):
+        pass
+    def is_alive(self):
+        pass
+    def live(self):
+        pass
+
